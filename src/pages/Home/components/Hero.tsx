@@ -1,26 +1,25 @@
 export default function Hero() {
   return (
     <section
+      className="w-full flex items-center justify-center"
       style={{
-        height: "60vh",
+        height: "70vh",
         backgroundImage: "url('/fachada.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
       }}
-      className="w-full flex items-center justify-center"
     >
-      <div className="bg-black/50 w-full h-full flex items-center justify-center">
-        <div className="text-center text-white px-4 max-w-2xl">
-          <h1 className="text-2xl md:text-4xl font-bold mb-4">
-            CEI 71 - Sorocaba
+      <div className="w-full h-full bg-black/60 flex items-center justify-center">
+        <div className="text-center text-white px-4 max-w-3xl">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+            Educação infantil com carinho e segurança
           </h1>
 
-          <p className="mb-6">
-            Educação infantil com carinho, segurança e dedicação
+          <p className="text-lg md:text-xl mb-8 opacity-90">
+            Um ambiente acolhedor para o desenvolvimento das crianças
           </p>
 
-          <button className="bg-blue-500 hover:bg-blue-600 px-6 py-2 rounded">
+          <button className="bg-green-500 hover:bg-green-600 px-8 py-4 rounded-xl text-lg shadow-lg transition">
             Agendar visita
           </button>
         </div>
