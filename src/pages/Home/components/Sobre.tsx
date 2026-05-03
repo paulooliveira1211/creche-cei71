@@ -10,8 +10,8 @@ export default function Sobre() {
           </h2>
 
           <p className="mb-4 text-gray-700">
-            O CEI 71 é um espaço dedicado ao cuidado, educação e desenvolvimento
-            das crianças, oferecendo um ambiente seguro, acolhedor e estimulante.
+            O CEI 71 é um espaço dedicado ao cuidado e desenvolvimento das crianças,
+            oferecendo um ambiente seguro, acolhedor e cheio de aprendizado.
           </p>
 
           <p className="text-gray-700">
