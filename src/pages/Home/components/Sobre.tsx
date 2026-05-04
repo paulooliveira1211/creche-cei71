@@ -1,7 +1,7 @@
 export default function Sobre() {
   return (
-    <section id="sobre" className="py-20 bg-white">
-      <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+    <section className="py-20">
+      <div className="max-w-6xl mx-auto px-4">
         
         {/* IMAGEM */}
         <img

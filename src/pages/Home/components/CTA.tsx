@@ -1,8 +1,7 @@
 export default function CTA() {
   return (
-    <section className="py-20 bg-gradient-to-r from-green-500 to-green-600 text-white text-center">
-      
-      <div className="max-w-3xl mx-auto px-4">
+    <section className="py-20">
+      <div className="max-w-6xl mx-auto px-4">
 
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
           Agende uma visita

@@ -6,7 +6,11 @@ function App() {
   return (
     <div className="bg-gray-50 text-gray-800">
       <Header />
-      <AppRoutes />
+
+      <main className="pt-20">
+        <AppRoutes />
+      </main>
+
       <Footer />
     </div>
   );
