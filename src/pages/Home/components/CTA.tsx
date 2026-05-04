@@ -1,18 +1,27 @@
 export default function CTA() {
   return (
-    <section className="py-20 bg-gradient-to-r from-blue-500 to-blue-600 text-white text-center">
+    <section className="py-20 bg-gradient-to-r from-green-500 to-green-600 text-white text-center">
+      
+      <div className="max-w-3xl mx-auto px-4">
 
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Agende uma visita
-      </h2>
+        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
+          Agende uma visita
+        </h2>
 
-      <p className="mb-8">
-        Venha conhecer nossa estrutura de perto
-      </p>
+        <p className="mb-8 text-lg opacity-90">
+          Venha conhecer nossa estrutura e tirar todas as suas dúvidas pessoalmente
+        </p>
 
-      <button className="bg-white text-blue-600 px-8 py-4 rounded-xl shadow-lg font-semibold">
-        Falar no WhatsApp
-      </button>
+        <a
+          href="https://wa.me/5515999999999"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-white text-green-600 px-8 py-4 rounded-xl shadow-lg font-semibold hover:scale-105 transition"
+        >
+          Falar no WhatsApp
+        </a>
+
+      </div>
 
     </section>
   );
