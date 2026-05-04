@@ -10,7 +10,7 @@ import Depoimento from "./components/Depoimento";
 
 export default function Home() {
   return (
-    <>
+    <div className="pt-20">
       <Hero />
       <Sobre />
       <Diferenciais />
@@ -20,6 +20,6 @@ export default function Home() {
       <ContatoResumo />      
       <Confianca />
       <Depoimento />
-    </>
+    </div>
   );
 }

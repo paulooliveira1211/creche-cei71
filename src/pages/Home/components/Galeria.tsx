@@ -25,8 +25,7 @@ export default function Galeria() {
             >
               <img
                 src={img}
-                className="w-full aspect-[4/3] object-cover"
-                alt=""
+                className="w-full aspect-[4/3] object-cover rounded-xl hover:scale-105 transition duration-300"
               />
             </div>
           ))}

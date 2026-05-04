@@ -1,6 +1,6 @@
 export default function ContatoResumo() {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-slate-100">
       <div className="max-w-6xl mx-auto px-4">
 
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">

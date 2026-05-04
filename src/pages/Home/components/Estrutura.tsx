@@ -1,6 +1,6 @@
 export default function Estrutura() {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-slate-100">
       <div className="max-w-6xl mx-auto px-4">
 
         {/* TEXTO */}

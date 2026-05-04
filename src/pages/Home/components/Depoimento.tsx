@@ -1,6 +1,6 @@
 export default function Depoimento() {
   return (
-    <section className="py-20">
+    <section className="py-20 bg-slate-100">
       <div className="max-w-6xl mx-auto px-4">
 
         <div className="bg-gray-50 p-8 md:p-10 rounded-2xl shadow-md">
