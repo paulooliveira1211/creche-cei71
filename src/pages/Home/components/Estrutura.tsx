@@ -1,10 +1,10 @@
 export default function Estrutura() {
   return (
-    <section id="estrutura" className="py-16 md:py-20 bg-white">
+    <section id="estrutura" className="py-16 md:py-24 bg-white">
       <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
 
         <div>
-          <h2 className="text-2xl md:text-4xl font-bold mb-6 text-blue-700">
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 text-blue-700">
             Estrutura completa
           </h2>
 

@@ -9,10 +9,10 @@ const imagens = [
 
 export default function Galeria() {
   return (
-    <section id="galeria" className="py-16 md:py-20 bg-slate-50">
+    <section id="galeria" className="py-16 md:py-24 bg-blue-100">
       <div className="max-w-6xl mx-auto px-4">
 
-        <h2 className="text-2xl md:text-4xl font-bold mb-12 text-center text-blue-700">
+        <h2 className="text-3xl md:text-5xl font-bold mb-12 text-center text-blue-700">
           Nosso espaço
         </h2>
 

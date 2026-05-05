@@ -1,18 +1,18 @@
 export default function CTA() {
   return (
-    <section className="py-16 md:py-20 bg-blue-600 text-white text-center">
+    <section className="py-16 md:py-24 bg-blue-700 text-white text-center">
 
-      <h2 className="text-2xl md:text-4xl font-bold mb-4">
-        Agende uma visita
+      <h2 className="text-3xl md:text-5xl font-bold mb-4">
+        Agende uma visita e conheça nosso espaço
       </h2>
 
-      <p className="mb-8">
-        Venha conhecer nossa estrutura de perto
+      <p className="mb-8 text-lg">
+        Venha ver de perto o cuidado e carinho com cada criança
       </p>
 
       <a
         href="https://wa.me/5515999999999"
-        className="bg-white text-blue-600 px-8 py-4 rounded-xl shadow-lg font-semibold"
+        className="bg-green-500 hover:bg-green-600 px-8 py-4 rounded-xl shadow-lg font-semibold"
       >
         Falar no WhatsApp
       </a>

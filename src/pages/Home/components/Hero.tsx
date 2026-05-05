@@ -22,7 +22,7 @@ export default function Hero() {
 
         <a
           href="https://wa.me/5515999999999"
-          className="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-xl text-lg shadow-lg transition hover:scale-105"
+          className="bg-green-500 hover:bg-green-600 px-8 py-4 rounded-xl text-lg shadow-lg transition hover:scale-105"
         >
           Agendar visita
         </a>
