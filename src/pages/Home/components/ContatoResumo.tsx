@@ -1,29 +1,26 @@
 export default function ContatoResumo() {
   return (
-    <section className="py-20 bg-slate-100">
-      <div className="max-w-6xl mx-auto px-4">
+    <section id="contato" className="py-16 md:py-20 bg-yellow-50 text-center">
+      <div className="max-w-4xl mx-auto px-4">
 
-        <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">
-          Contato
+        <h2 className="text-2xl md:text-4xl font-bold mb-6 text-blue-700">
+          Entre em contato
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <p className="text-gray-700 mb-2">
+          📍 Sorocaba - SP
+        </p>
 
-          <div className="bg-gray-50 p-6 rounded-2xl shadow-sm">
-            <p className="text-sm text-gray-500 mb-2">Localização</p>
-            <p className="font-semibold text-gray-800">
-              Sorocaba - SP
-            </p>
-          </div>
+        <p className="text-gray-700 mb-6">
+          📞 (15) 3217-2114
+        </p>
 
-          <div className="bg-gray-50 p-6 rounded-2xl shadow-sm">
-            <p className="text-sm text-gray-500 mb-2">Telefone</p>
-            <p className="font-semibold text-gray-800">
-              (15) 99999-9999
-            </p>
-          </div>
-
-        </div>
+        <a
+          href="https://wa.me/5515999999999"
+          className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl shadow-lg"
+        >
+          Falar no WhatsApp
+        </a>
 
       </div>
     </section>
